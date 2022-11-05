@@ -1,0 +1,47 @@
+.bg-orange {
+    background-color: $navcolor;
+}
+
+* {
+    font-family: $fontmain;
+    text-align: $textali;
+}
+
+.consolas {
+    padding: 50px 20px;
+    width: 50%;
+}
+
+.controles {
+    padding: 50px 20px;
+    width: 80%;
+}
+
+.juegos {
+    padding: 50px 20px;
+    width: 80%;
+}
+
+.extras {
+    padding: 50px 20px;
+    width: 80%;
+}
+
+.card {
+    transition: transform .2s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.ayuda {
+    display: column;
+    justify-content: center;
+
+}
+
+form {
+    padding: 10px;
+    width: 80vh;
+}
